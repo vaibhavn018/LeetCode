@@ -1,9 +1,7 @@
-# LeetCode
-
 # Revise 
 1 ->
     Problem :- Swap Nodes in Pairs  
-    Problem link :- [link](https://leetcode.com/problems/swap-nodes-in-pairs/)
+    [Problem link](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 2 -> 
 
@@ -11,8 +9,8 @@
 # Solved Problems
 Day-1 
 
-Problem :- Odd Even Linked List [link](OddEvenLL.java)  
-Problem link :- [link](https://leetcode.com/problems/odd-even-linked-list/)
+Problem-1 :- [Odd Even Linked List](OddEvenLL.java)  
+[Problem link](https://leetcode.com/problems/odd-even-linked-list/)
 
 Time - O(n). Space - O(1).
 
@@ -33,8 +31,8 @@ Then return head.
 
 Day-2
 
-Problem :- Swap Nodes in Pairs [link](SwapNodeInPairs.java)  
-Problem link :- [link](https://leetcode.com/problems/swap-nodes-in-pairs/)
+Problem-2 :- [Swap Nodes in Pairs](SwapNodeInPairs.java)  
+[Problem link](https://leetcode.com/problems/swap-nodes-in-pairs/)
 This problem has 2 approach
 
 i. Recursive 
@@ -68,3 +66,6 @@ Use while loop set condition if cur is not null or cur next is not null,
 after the loop swap will be completed
 
 return newHead.
+
+Problem-3 :- [Delete the Middle Node of a Linked List](OddEvenLL.java)  
+[Problem link](https://leetcode.com/problems/odd-even-linked-list/)
