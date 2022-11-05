@@ -1,9 +1,18 @@
 # LeetCode
 
+# Revise 
+1 ->
+    Problem :- Swap Nodes in Pairs
+    Problem link :- [https://leetcode.com/problems/swap-nodes-in-pairs/]
+
+2 -> 
+
+
+# Solved Problems
 Day-1 
 
-Problem :- Odd Even Linked List
-Problem link :- [https://leetcode.com/problems/odd-even-linked-list/]
+Problem :- Odd Even Linked List [click here](OddEvenLL.java)
+Problem link :- [click here](https://leetcode.com/problems/odd-even-linked-list/)
 
 Time - O(n). Space - O(1).
 
@@ -27,3 +36,21 @@ After joint evenNode head to last LastOddNode.
 lastEvenNode to null to break the last chain.
 
 Then return head.
+
+Day-2
+
+Problem :- Swap Nodes in Pairs [click here](SwapNodeInPairs.java)
+Problem link :- [click here](https://leetcode.com/problems/swap-nodes-in-pairs/)
+This problem has 2 approach
+
+i. Recursive 
+O(n) -> space and time 
+
+If head is null remaining or whole LL is null. If head.next is null then LL has only one node then swapping makes no sense. So return head.
+Initialize newHead node and assign head.next as value.
+make a recursion call and pass head.next.next as parameter store it in temp variable.
+then newHead next becomes head and head next temp.
+return newHead.
+
+ii. Iterative approach
+O(n) -> Time and O(1) -> Space

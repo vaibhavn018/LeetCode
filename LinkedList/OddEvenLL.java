@@ -26,7 +26,7 @@ public class OddEvenLL {
 }
 
 /*
- * Problem link :- https://leetcode.com/problems/odd-even-linked-list/
+ * Problem link :- [https://leetcode.com/problems/odd-even-linked-list/]
  * 
  * Time - O(n). Space - O(1).
  * 
