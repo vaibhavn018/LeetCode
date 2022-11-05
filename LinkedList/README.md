@@ -6,8 +6,9 @@
 2 -> 
 
 
-# Solved Problems
-Day-1 
+
+
+# Day-1 
 
 Problem-1 :- [Odd Even Linked List](OddEvenLL.java)  
 [Problem link](https://leetcode.com/problems/odd-even-linked-list/)
@@ -29,7 +30,7 @@ lastEvenNode to null to break the last chain.
 
 Then return head.
 
-Day-2
+# Day-2
 
 Problem-2 :- [Swap Nodes in Pairs](SwapNodeInPairs.java)  
 [Problem link](https://leetcode.com/problems/swap-nodes-in-pairs/)
@@ -69,3 +70,18 @@ return newHead.
 
 Problem-3 :- [Delete the Middle Node of a Linked List](OddEvenLL.java)  
 [Problem link](https://leetcode.com/problems/odd-even-linked-list/)
+
+Time - O(n) and Space - O(n)
+
+If LL has only one element then 
+    return null
+
+Initialize two variables type ListNode named slow, fast and assign head.
+temp will be another ListNode make new object and and give value 0.
+
+Use while loop if fast or fast next is not null.
+    temp = slow and move slow to one step and fast to two steps.
+
+temp next will be slow next to delete middle node.
+
+return head of the LL.
