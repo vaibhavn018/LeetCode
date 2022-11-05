@@ -2,8 +2,8 @@
 
 # Revise 
 1 ->
-    Problem :- Swap Nodes in Pairs
-    Problem link :- [https://leetcode.com/problems/swap-nodes-in-pairs/]
+    Problem :- Swap Nodes in Pairs  
+    Problem link :- [link](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 2 -> 
 
@@ -11,8 +11,8 @@
 # Solved Problems
 Day-1 
 
-Problem :- Odd Even Linked List [click here](OddEvenLL.java)
-Problem link :- [click here](https://leetcode.com/problems/odd-even-linked-list/)
+Problem :- Odd Even Linked List [link](OddEvenLL.java)  
+Problem link :- [link](https://leetcode.com/problems/odd-even-linked-list/)
 
 Time - O(n). Space - O(1).
 
@@ -39,8 +39,8 @@ Then return head.
 
 Day-2
 
-Problem :- Swap Nodes in Pairs [click here](SwapNodeInPairs.java)
-Problem link :- [click here](https://leetcode.com/problems/swap-nodes-in-pairs/)
+Problem :- Swap Nodes in Pairs [link](SwapNodeInPairs.java)  
+Problem link :- [link](https://leetcode.com/problems/swap-nodes-in-pairs/)
 This problem has 2 approach
 
 i. Recursive 
